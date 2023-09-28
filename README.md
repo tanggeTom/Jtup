@@ -6,7 +6,7 @@ https://drive.google.com/drive/folders/1j8220xexKq0P3py0mXNdpbwnB4HJcSb3?usp=sha
 
 All samples are stored in JSON format. Using json package to get data.
 
-word2vec_21.model is the trained skip-gram model.
+word2vec_w_5.model is the trained skip-gram model.
 
 #### entropy
 
