@@ -12,7 +12,7 @@ from nltk.stem import WordNetLemmatizer  # WordNetLemmatizer
 # Update the new feature code semantics
 def get_project_in_json(projectpath, projectname):
     gumtree_path = "E:\\project_collection\\python_entropy\\newold"
-    model = Word2Vec.load("word2vec_21.model")
+    model = Word2Vec.load("word2vec_w_5.model")
     reg = "([a-z])([A-Z])"  # Matches the hump of case exchange
     lemmatizer = WordNetLemmatizer()
     for index, json_file in enumerate(os.listdir(projectpath)):
@@ -60,7 +60,7 @@ def get_project_in_json(projectpath, projectname):
 
 if __name__ == '__main__':
     projects = ['activemq', 'cloudstack', 'commons-math', 'flink', 'geode', 'james-project', 'logging-log4j2', 'storm',
-                'usergrid', 'zeppelin', 'pmd', 'biojava', 'jruby', 'jsoup']
+                'usergrid', 'zeppelin', 'biojava', 'jruby', 'jsoup']
     projects = ["AntennaPod", "deeplearning4j", "junit4", "metrics", "OpenRefine", "storio", "wiremock"]
     
     for project in tqdm(projects):

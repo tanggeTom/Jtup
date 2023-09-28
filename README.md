@@ -6,7 +6,7 @@ https://drive.google.com/drive/folders/1j8220xexKq0P3py0mXNdpbwnB4HJcSb3?usp=sha
 
 All samples are stored in JSON format. Using json package to get data.
 
-word2vec_w_5.model is the trained skip-gram model.
+`word2vec_w_5.model` is the trained skip-gram model.
 
 #### entropy
 
@@ -16,9 +16,9 @@ Address:https://bitbucket.org/tuzhaopeng/cachelm_for_code_suggestion/src/master/
 
 `test.py`    Test the parameters used by the cross-entropy
 
-#### senmantic
+#### semantic
 
-`word2vecf.py` Get mean vector representation of production class.
+`word2vecf.py` Get the mean vector representation of the production class.
 
 #### model
 
