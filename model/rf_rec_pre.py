@@ -16,7 +16,7 @@ import time
 
 class Commit(object):
 
-    def __int__(self, file_name, time, project, feature, target):
+    def __init__(self, file_name, time, project, feature, target):
         self.file_name = file_name
         self.time = time
         self.project = projects
